@@ -1,0 +1,18 @@
+<button (click)="getAllPost()">Get All Post</button>
+
+<h1>List Of Post</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+
+    <th><title>Title</title></th>
+    </tr>
+    <tbody *ngFor="let p of allPost">
+        <tr>
+     <td>{{p.id}}</td>
+     <td>{{p.title}}</td>
+
+        </tr>
+    </tbody>
+</table>
